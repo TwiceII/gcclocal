@@ -1,0 +1,59 @@
+<div class="ui fixed inverted menu">
+  <div class="ui container">
+    <a href="/" class="header item">
+      <img class="logo" src="/images/logo_brk.png">
+    </a>
+    <div class="ui simple dropdown item">
+      <i class="bar chart icon"></i>Графики <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item" href="/moneydiagram/moneyincomes">Поступление денег</a>
+<!--         <a class="item" href="/moneydiagram/suppliershippingsplan">Плановые поставки от поставщиков</a> -->
+<!--         <a class="item" href="/appsrealization">Выполнение по заявкам</a>
+        <a class="item" href="/suppliersdebt">Поставщики по срокам</a> -->
+      </div>
+    </div>
+    <div class="ui simple dropdown item">
+      <i class="file text outline icon"></i> Документы <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item" href="/primarydocs/clientcontracts">Договоры</a>
+<!--         <a class="item" href="/primarydocs/suppliercontractinfos">Условия работы с поставщиками</a> -->
+        <a class="item" href="/primarydocs/clientapplications">Заявки от клиентов</a>
+        <a class="item" href="/primarydocs/departures">Поставки</a>
+<!--         <a class="item" href="/primarydocs/departurelogistinfos">В пути</a> -->
+        <a class="item" href="/primarydocs/clientpayments">Оплаты клиентов</a>
+<!--         <a class="item" href="/primarydocs/clientfines">Штрафы по клиентам</a> -->
+<!--         <a class="item" href="/primarydocs/initclientincomes">Входящие остатки по клиентам</a> -->
+        <a class="item" href="/primarydocs/clientinitincomes">Входящие остатки по клиентам и заявкам</a>
+<!--         <a class="item" href="/primarydocs/initbalanceondate">Текущий остаток на начало</a> -->
+<!--         <div class="divider"></div>
+        <a class="item" href="/primarydocs/clientappamountfrom1c">Количество реализации заявок с 1С</a> -->
+        <!--<div class="divider"></div>
+        <a class="item" href="#">Сведения по отправлению</a>
+        <a class="item" href="#">Поступление ТМЗ</a>
+        <a class="item" href="#">Оплата поставщику</a>-->
+      </div>
+    </div>
+    <div class="ui simple dropdown item">
+      <i class="book icon"></i>Справочники <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item" href="/catalogs/clients">Клиенты</a>
+        <a class="item" href="/catalogs/goods">Товары</a>
+<!--         <a class="item" href="/catalogs/suppliers">Поставщики</a> -->
+<!--         <div class="divider"></div>
+        <a class="item" href="/catalogs/stations">Станции</a>
+        <a class="item" href="/catalogs/stationtraveltimes">Сроки в пути</a> -->
+<!--         <a class="item" href="/catalogs/departurestatuses">Статусы отправления</a> -->
+      </div>
+    </div>
+    <div class="right menu">
+      {% if display-username %}
+      <div class="ui dropdown item">
+        <i class="user icon"></i>{{ display-username }} <i class="dropdown icon"></i>
+        <div class="menu">
+          <a href="/logout" class="item">Выйти</a>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

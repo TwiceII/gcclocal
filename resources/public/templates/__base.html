@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            {% block title %} {% endblock %}
+        </title>
+        {% block stylesheets %}
+            <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,300&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+            <link href="css/semantic.min.css" rel="stylesheet">
+            <link href="css/custom.css" rel="stylesheet">
+            <link href="css/pickmeup.min.css" rel="stylesheet">
+        {% endblock %}
+        {% block javascript %}
+            <script src="js/jquery-1.11.3.min.js"></script>
+        {% endblock %}
+    </head>
+    <body>
+        <div>
+          Dev mode is {{ dev-mode }}
+        </div>
+        {% include "public/templates/_topmenu.html" %}
+
+        <div class="ui main container">
+            {% block content %}
+            {% endblock %}
+        </div>
+
+        <div class="ui inverted vertical footer segment">
+            <div class="ui container">
+                <div class="ui stackable inverted divided equal height stackable grid">
+                    <div class="column">
+                        <div class="ui right floated basic segment">
+                        <span class="footer-label">BRK Consulting ©</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% block footer_js %}
+            <script src="js/semantic.min.js"></script>
+            <script src="js/jquery.dataTables.min.js"></script>
+            <script src="js/dataTables.fixedColumns.min.js"></script>
+            <script src="js/moment.min.js"></script>
+            <script src="js/notify.min.js"></script>
+            <script src="js/jquery.pickmeup.min.js"></script>
+        {% endblock %}
+        <script>
+          $('.ui.dropdown').dropdown();
+        </script>
+    </body>
+</html>

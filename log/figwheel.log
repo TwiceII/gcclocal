@@ -1,0 +1,103 @@
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  resources/public/js/compiled/app.js
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  out\gcclocal\catalogs\clients.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.627 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientcontracts.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.169 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientapplications.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.315 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+WARNING: Use of undeclared Var gcclocal.views.crud-fields/cmoney-view at line 37 src\cljs\gcclocal\primarydocs\clientapplications.cljs
+notifying browser that file changed:  out\gcclocal\primarydocs\clientapplications.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.3 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientapplications.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.308 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientapplications.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.287 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+[31mCompiling "resources/public/js/compiled/app.js" failed.
+[0mERROR: EOF while reading, starting at line 55 and column 1 on file C:\Users\Twice\Documents\ClojureProjects\gcclocal\src\cljs\gcclocal\primarydocs\clientapplications.cljs, line 88, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.17 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientapplications.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.343 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientapplications.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.298 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientapplications.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.287 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\departures.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.422 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/app.js
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  out\gcclocal\primarydocs\departures.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.492 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\departures.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.355 seconds.[0m
+WARNING: uuid? already refers to: cljs.core/uuid? being replaced by: cognitect.transit/uuid? at line 342 file:/C:/Users/Twice/.m2/repository/com/cognitect/transit-cljs/0.8.237/transit-cljs-0.8.237.jar!/cognitect/transit.cljs
+WARNING: Use of undeclared Var gcclocal.comm.utils/error-handler at line 215 /C:/Users/Twice/Documents/ClojureProjects/gcclocal/src/cljs/gcclocal/comm/utils.cljs
+notifying browser that file changed:  out\gcclocal\primarydocs\departures.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.106 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\departures.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.501 seconds.[0m
+notifying browser that file changed:  out\gcclocal\primarydocs\departures.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.58 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.421 seconds.[0m
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.47 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.359 seconds.[0m
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.386 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.299 seconds.[0m
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.334 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.358 seconds.[0m
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.379 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.524 seconds.[0m
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.568 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  resources/public/js/compiled/app.js
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.418 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/app.js
+notifying browser that file changed:  out\gcclocal\primarydocs\clientpayments.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.435 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs/gcclocal"]...
+notifying browser that file changed:  resources/public/js/compiled/app.js
+notifying browser that file changed:  out\gcclocal\main\login.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.354 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/app.js
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  out\gcclocal\main\login.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.466 seconds.[0m

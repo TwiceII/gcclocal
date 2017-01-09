@@ -1,0 +1,45 @@
+{% extends "public/templates/__base.html" %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block stylesheets %}
+{{ block.super }}
+{% endblock %}
+
+{% block javascript %}
+{{ block.super }}
+{% endblock %}
+
+{% block content %}
+  <div>
+    <h1 class="ui header">{{ title }}</h1>
+    <!-- Базовая CRUD-таблица с пейджингом -->
+    <div id="mainpanel">
+    </div>
+  </div>
+{% endblock %}
+
+
+{% block footer_js %}
+{{ block.super }}
+{% if dev-mode %}
+<!-- crud dev-mode -->
+<script src="js/compiled/out/goog/base.js"></script>
+<script src="js/compiled/app.js"></script>
+<script>
+  goog.require("{{ crudnamespace }}");
+  $(function () {
+    {{ crudnamespace }}.init();
+  });
+</script>
+{% else %}
+<!-- crud prod-mode -->
+<script src="js/compiled/cljs-b.js"></script>
+<script src="js/compiled/common-module.js"></script>
+<script src="js/compiled/base-crud.js"></script>
+<script src="js/compiled/entity-crud.js"></script>
+<script type="text/javascript">
+  {{ crudnamespace }}.init();
+</script>
+{% endif %}
+{% endblock %}

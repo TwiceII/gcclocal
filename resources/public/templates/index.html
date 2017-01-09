@@ -1,0 +1,39 @@
+{% extends "public/templates/__base.html" %}
+{% block title %} Главная {% endblock %}
+
+
+{% block content %}
+    <div class="ui container">
+      <H1>Система для управления деньгами</H1>
+        <div class="ui basic segment">
+            <div class="ui relaxed list">
+                <div class="item">
+                    <i class="large bar chart icon"></i>
+                    <div class="content">
+                        <div class="header">Графики</div>
+                        <div class="description">Основные графики и таблицы: поступления денег, выполнения заявок и т.д</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="large file text outline icon"></i>
+                    <div class="content">
+                        <div class="header">Документы</div>
+                        <div class="description">справочные документы: договоры, заявки, данные логиста по отправлениям и т.д.</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="large book icon"></i>
+                    <div class="content">
+                        <div class="header">Справочники</div>
+                        <div class="description">Основные справочники: клиенты, поставщики, станции и т.д.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{%  endblock %}
+
+
+{% block footer_js %}
+    {{ block.super }}
+{% endblock %}

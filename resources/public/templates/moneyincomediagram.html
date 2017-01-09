@@ -1,0 +1,90 @@
+{% extends "public/templates/__base.html" %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block stylesheets %}
+{{ block.super }}
+ <style>
+    table {
+        width: 100%;
+    }
+
+    td {
+        text-align: right !important;
+    }
+
+    td.hoverable:hover {
+        background: #eeeeee !important;
+    }
+
+    tr > th:last-child {
+        border-left: 2px solid #9CC6E2 !important;
+    }
+
+    tr > td:last-child {
+        border-left: 2px solid #9CC6E2 !important;
+    }
+
+    tfoot > tr {
+        font-weight: bold;
+    }
+
+    tr.total-row {
+        font-weight: bold;
+        background-color: #dff0ff !important;
+    }
+    tr.total-row > td:first-child {
+        font-weight: bold;
+        background-color: #dff0ff !important;
+    }
+
+    tr.income-row {
+        background-color: #fcfcfc !important;
+    }
+
+    tr.income-row > td:first-child {
+        background-color: #fcfcfc !important;
+    }
+
+    </style>
+
+{% endblock %}
+
+{% block javascript %}
+{{ block.super }}
+{% endblock %}
+
+{% block content %}
+  <div>
+    <h1 class="ui header">{{ title }}</h1>
+
+    <div id="maintable">
+    </div>
+  </div>
+{% endblock %}
+
+{% block footer_js %}
+{{ block.super }}
+{% if dev-mode %}
+<!-- crud dev-mode -->
+<script src="js/compiled/out/goog/base.js"></script>
+<script src="js/compiled/app.js"></script>
+<script>
+  goog.require("gcclocal.diagrams.moneyincomes");
+  $(function () {
+    gcclocal.diagrams.moneyincomes.init();
+  });
+</script>
+{% else %}
+<script src="js/compiled/cljs-b.js"></script>
+<script src="js/compiled/common-module.js"></script>
+<script src="js/compiled/base-crud.js"></script>
+<script src="js/compiled/diagrams.js"></script>
+<script type="text/javascript">
+  gcclocal.diagrams.moneyincomes.init();
+</script>
+<script type="text/javascript">
+  $('.ui.dropdown').dropdown();
+</script>
+{% endif %}
+{% endblock %}
